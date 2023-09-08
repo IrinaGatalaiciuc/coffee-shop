@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Coffeebuild from "./blocks/Coffeebuild";
+import Combos from "./blocks/Combos";
+import Giftsets from "./blocks/Giftsets";
+import Shopitems from "./blocks/Shopitems";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import "./styles/app.css"
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <section id="coffee">
+        <Coffeebuild />
+      </section>
+      <section id="phin">
+        <Shopitems />
+      </section>
+      <section id="giftset"> 
+        <Giftsets />
+      </section>
+      <section id="combo">
+        <Combos />
+      </section>
+      <section id="lien">
+        <Footer />
+      </section>
     </div>
   );
 }

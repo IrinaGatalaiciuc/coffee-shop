@@ -1,0 +1,98 @@
+.giftsets {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+    to right,
+    #EDF0F5 0%,
+    #EDF0F5 65%,
+    #FFF 65%,
+    #FFF 100%
+   );
+}
+
+.name_part {
+    margin-bottom: 92px;
+}
+
+
+.sets_section {
+    display: flex;
+    flex-direction: row;
+position: relative;
+}
+
+.set_image {
+    width: 463px;
+    height: 416px;
+    position: relative;
+    margin-left: 130px;
+}
+
+.set_info {
+    width: 794px;
+    height: 460px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-left: 91px;
+    margin-right: 66px;
+    position: relative;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.content_active {
+    display: flex;
+    flex-direction: row;
+position: relative;
+}
+
+.content {
+    display: none;
+}
+
+
+.container_tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.right_tab ul {
+    list-style-type: none;
+}
+
+.right_tab ul li {
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+
+/* .tabs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 126px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+} */

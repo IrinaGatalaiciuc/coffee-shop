@@ -1,0 +1,42 @@
+
+.name_part {
+margin-bottom: 92px;
+margin-top: 87px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+    margin: 0 10.57%;
+}
+
+.item_img {
+    width: 80px;
+    height: 81px;
+    margin-bottom: 41px;
+    
+}
+.item {
+    width: 226px;
+height: 246.5px;
+margin-right: 68px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.item_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.item_info p {
+    text-align: center;
+    margin-top: 12px;
+}
